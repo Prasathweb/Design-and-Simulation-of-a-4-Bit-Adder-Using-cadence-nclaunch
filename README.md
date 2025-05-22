@@ -45,7 +45,7 @@ endmodule
 
 ![image](https://github.com/user-attachments/assets/0ea58111-49fb-49a4-ad6a-ee36cbf4e479)
 
-## Verilog Code for 4-Bit Ripple carry Adder
+## Verilog Code for 1-Bit Full Adder
 ```verilog
 module adder_4bit (
     input [3:0] A, B,
@@ -63,6 +63,8 @@ endmodule
 ```
 ## Verilog Testbench Code for 1-Bit Full Adder
 ```verilog
+`timescale 1ns/1ps
+
 module tb_adder_4bit;
     reg [3:0] A, B;
     reg Cin;
@@ -96,13 +98,8 @@ endmodule
 
 
 ## Simulation Results
-
-### Nclaunch Work Library Window
-
-![Screenshot 2025-05-21 155538](https://github.com/user-attachments/assets/187ebe28-40e2-44b2-9b78-d08bdc67d62c)
-
 ### Simulation Waveforms
-![Screenshot 2025-05-21 155512](https://github.com/user-attachments/assets/4d1457be-ef30-4b8b-a58d-aa8ac39c078c)
+![Screenshot 2025-05-15 162722](https://github.com/user-attachments/assets/80a79627-fc90-44b6-af56-703224850ebe)
 
 
 
